@@ -1,5 +1,5 @@
 {
-  "name": "weighbridge-serialport-frontend",
+  "name": "WeighUISimple",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,23 +32,6 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jameel-fullstackdeveloper/Weighbridge-Serial-Port-Front-end-in-React-.git"
-  },
-  "keywords": [
-    "serialport",
-    "weighbridge",
-    "serial",
-    "port",
-    "reading",
-    "in",
-    "react"
-  ],
-  "author": "Jameel Ahmed",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jameel-fullstackdeveloper/Weighbridge-Serial-Port-Front-end-in-React-/issues"
-  },
-  "homepage": "https://github.com/jameel-fullstackdeveloper/Weighbridge-Serial-Port-Front-end-in-React-#readme"
-}
+  "author": "Sudhashun Ravichander",
+  "license": "ISC"
+ }

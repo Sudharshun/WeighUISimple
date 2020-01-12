@@ -5,14 +5,14 @@ class App extends Component {
     super();
     this.state = {
       response: false,
-      endpoint: "http://172.16.1.205:8888"
+      endpoint: "http://localhost:8888"
     };
   }
   componentDidMount() {
     const { endpoint } = this.state;
     const socket = socketIOClient(endpoint);
     socket.on("data", message =>
-      this.setState({ response: message.data.slice(8, 14) })
+      this.setState({ response: message.data })
     );
   }
   render() {
